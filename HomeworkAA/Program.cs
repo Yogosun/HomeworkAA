@@ -34,7 +34,7 @@ namespace HomeworkAA
                         Console.WriteLine("Меню:");
                         foreach (var item in menu.Items)
                         {
-                            Console.WriteLine($"{item.Id}. {item.Name} - {item.Price} руб.");
+                            Console.WriteLine($"{item.Id}. {item}"); // Выводим ID, название и цену
                         }
 
                         Console.Write("Введите номер блюда для добавления в корзину: ");
@@ -104,6 +104,6 @@ namespace HomeworkAA
                 }
             }
         }
-    }
 
+    }
 }

@@ -45,6 +45,11 @@
   <ItemGroup>
     <Compile Include="Baskets\Basket.cs" />
     <Compile Include="Entity\MenuItem.cs" />
+    <Compile Include="Menus\Food\Burger.cs" />
+    <Compile Include="Menus\Food\Pasta.cs" />
+    <Compile Include="Menus\Food\Pizza.cs" />
+    <Compile Include="Menus\Food\Salad.cs" />
+    <Compile Include="Menus\Food\Sushi.cs" />
     <Compile Include="Menus\Menu.cs" />
     <Compile Include="Order\Order.cs" />
     <Compile Include="Events\Order\OrderStatusChangedEvent.cs" />

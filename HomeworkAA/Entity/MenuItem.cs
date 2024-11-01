@@ -1,16 +1,18 @@
 ﻿namespace HomeworkAA.Entity
 {
-    public class MenuItem
+    public abstract class MenuItem
     {
         public int Id { get; }
         public string Name { get; }
         public decimal Price { get; }
 
-        public MenuItem(int id, string name, decimal price)
+        protected MenuItem(int id, string name, decimal price)
         {
             Id = id;
             Name = name;
             Price = price;
         }
+
+        public override string ToString() => $"{Name} - {Price} руб.";
     }
 }
